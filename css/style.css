@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  /* Header Styles */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Form Styles */
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #d0efff;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #d0efff;
+  }
+  
+  article {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  article a {
+    margin-left: 5px;
+  }
+  
+  .error {
+    color: red;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    .sidenav {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+.logoutbtn{
+    margin: 20px;
+}
